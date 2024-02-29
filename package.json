@@ -1,0 +1,11 @@
+{
+    "name": "pulumi-cloud-run-permadiff",
+    "main": "index.ts",
+    "devDependencies": {
+        "@types/node": "^18"
+    },
+    "dependencies": {
+        "@pulumi/gcp": "^7.11.2",
+        "@pulumi/pulumi": "^3.0.0"
+    }
+}

@@ -1,0 +1,10 @@
+name: pulumi-cloud-run-permadiff
+runtime: nodejs
+description: A minimal TypeScript Pulumi program
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: typescript
+  gcp:defaultLabels:
+    value:
+      mylabel: mylabel
